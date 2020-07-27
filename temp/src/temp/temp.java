@@ -8,6 +8,7 @@ public class temp {
 	public static void main(String[] args) throws Exception {
 		Phone p=new Samsung();
 		showConfig(p);
+		System.out.println("test");
 	}
 	public static void showConfig(Phone p) {
 		p.showConfig();
